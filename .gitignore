@@ -1,0 +1,36 @@
+# 后端 Python 忽略文件
+# 虚拟环境（必须忽略！）
+pythonProject1/.venv/
+# Python 编译缓存
+pythonProject1/__pycache__/
+# PyCharm 配置文件（不用同步）
+pythonProject1/.idea/
+# 日志文件
+pythonProject1/*.log
+# 临时文件
+pythonProject1/*.tmp
+pythonProject1/*.pyc
+
+# 前端 Vue 忽略文件
+# 依赖包（npm install 会自动生成，不用同步）
+radiomics/node_modules/
+# 打包后的文件
+radiomics/dist/
+# 环境变量文件
+radiomics/.env
+radiomics/.env.local
+radiomics/.env.development.local
+radiomics/.env.production.local
+# 日志和缓存
+radiomics/npm-debug.log*
+radiomics/yarn-debug.log*
+radiomics/yarn-error.log*
+radiomics/.pnpm-debug.log*
+radiomics/.vite/
+radiomics/.eslintcache
+
+# 通用忽略文件（所有系统都适用）
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
